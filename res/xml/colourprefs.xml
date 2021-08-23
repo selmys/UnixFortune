@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2011 john Selmys.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the GNU Public License v2.0
+  which accompanies this distribution, and is available at
+  http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+-->
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+        android:title="Background Colour">
+        <ListPreference
+            android:title="Choose your colour"
+            android:key="listPref"
+            android:defaultValue="00faebd7"
+            android:persistent="true"
+            android:entries="@array/ColourArray"
+            android:entryValues="@array/ColourValues" />
+    </PreferenceCategory>
+</PreferenceScreen>
